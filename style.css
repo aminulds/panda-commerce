@@ -1,16 +1,17 @@
-
+/* All Container */
 .container{
     margin-bottom: 50px;
-
 }
-.carosel-bg{
+
+/* Header */
+.orange-bg{
     background-color: #feeae9;
 }
-.align-items-center{
-    padding: 10px 20px;
-}
 .carousel-item{
-    padding: 20px 40px;
+    padding: 30px 60px;
+}
+.carousel{
+    border-radius: 6px;
 }
 .price{
     color: #fb9242;
@@ -19,47 +20,47 @@
     background-color: #fb9242;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 10px 20px;
 }
 
-.cat-watch{
-    background-color: orange;
-}
-.cat-bag{
-    background-color: blueviolet;
-}
+/* Product Category */
 .cat-shoes{
-    background-color: lightblue;
+    background-color: steelblue;
 }
-.cat-bag, .cat-shoes, .cat-watch{
-    padding: 10px 30px;
-    border-radius: 10px;
+.cat-bags{
+    background-color: thistle;
 }
-.categories h1{
+.cat-watches{
+    background-color: darkcyan;
+}
+.cat-shoes, .cat-bags, .cat-watches{
     color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
 }
 .categories img{
     width: 100px;
 }
 
+/* Products */
 .card{
     border: none;
     border-radius: 5px;
     box-shadow: 5px 5px 10px lightgray;
 }
 .card-footer{
-    background-color: white;
     border-top: none;
+    background-color: white;
 }
 
+/* Sign UP */
 #signup{
     height: 300px;
 }
-#signup h6{
+.signup h6{
     color: gray;
 }
-#signup button{
+.signup button{
     margin-top: 5px;
 }
-
